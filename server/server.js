@@ -5,7 +5,7 @@ const path = require("path");
 
 app.use(express.static(path.join(__dirname, "/dist")));
 
-let storage = {};
+let storage = { banana: 1, apple: 1, tomato: 1 };
 
 app.get("/", (req, res) => {});
 
