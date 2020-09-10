@@ -19,7 +19,7 @@ export default class App extends React.Component {
     console.log(event.target.value);
     event.preventDefault();
     this.setState({
-      listItem: event.target.value,
+      GroceryItem: event.target.value,
     });
   }
 
