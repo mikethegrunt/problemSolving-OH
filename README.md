@@ -2,9 +2,9 @@
 
 Hello!
 
-This repo is set up as a database-less, to-do application built using React, Axios, and Express.
+This repo is set up as a full-stack, to-do application built using React, Axios, MySQL, and Express.
 
-Your task is to, using the boilerplate provided, implement the functionality of the application on the front-end and in the server to add items to server-side storage, then render them onto the page.
+Your task is to, using the boilerplate provided, implement the functionality of the application on the front-end and in the server to pull items from the databse to render them onto the page. In addition, your app should be able to send items from the input box of the frontend and save them in the database.
 
 Goals:
 
@@ -12,4 +12,4 @@ Goals:
 
 [] implement addItem to fire HTTP request to add item to server storage, then update state on successful completion of the request
 
-[] implement componentDidMount to pull in items already existing in server (items are hard-coded to simulate database call, since server storage will clear with refresh)
+[] implement componentDidMount to pull in items from database and render them on the page
