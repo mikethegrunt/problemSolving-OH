@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 const path = require("path");
 
-app.use(express.static(path.join(__dirname, "/dist")));
+app.use(express.static(path.join(__dirname, "../dist")));
 
 let storage = { banana: 1, apple: 1, tomato: 1 };
 

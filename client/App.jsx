@@ -1,5 +1,5 @@
 import React from "react";
-import GroceryItem from "./GroceryItem";
+import GroceryItem from "./GroceryItem.jsx";
 import axios from "axios";
 
 export default class App extends React.Component {
