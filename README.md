@@ -9,5 +9,7 @@ Your task is to, using the boilerplate provided, implement the functionality of 
 Goals:
 
 [] implement updateItem functionality to update state with the current contents of the <input> html element
+
 [] implement addItem to fire HTTP request to add item to server storage, then update state on successful completion of the request
+
 [] implement componentDidMount to pull in items already existing in server (items are hard-coded to simulate database call, since server storage will clear with refresh)
