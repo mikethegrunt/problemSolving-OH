@@ -10,6 +10,6 @@ Goals:
 
 [] implement updateItem functionality to update state with the current contents of the <input> html element
 
-[] implement addItem to fire HTTP request to add item to server storage, then update state on successful completion of the request
+[] implement addItem to fire HTTP request to add item from groceryItem state property to database, then update gList array in state on successful completion of the request
 
 [] implement componentDidMount to pull in items from database and render them on the page
