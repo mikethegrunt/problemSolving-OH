@@ -11,16 +11,14 @@ export default class App extends React.Component {
     };
   }
 
-  componentDidMount() {}
+  componentDidMount() {/*your code here*/ }
 
-  addItem() {}
+  addItem() {/*your code here */}
 
   updateItem(event) {
     console.log(event.target.value);
     event.preventDefault();
-    this.setState({
-      GroceryItem: event.target.value,
-    });
+    /*your code here*/
   }
 
   render() {
