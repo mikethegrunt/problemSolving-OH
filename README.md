@@ -16,4 +16,4 @@ Goals:
 
 [] Once the request-response cycle has completed successfully, update gList array in App state.
 
-[] implement componentDidMount lifecyle method to pull in items from database each time the <App/> component mounts, and render the items to the page
+[] implement componentDidMount lifecyle method to pull in items from database each time the <App/> component mounts and render the items to the page
