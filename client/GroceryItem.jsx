@@ -3,7 +3,7 @@ import React from "react";
 const GroceryItem = (props) => {
   return props.stuff.map((item, index) => (
     <div key={index}>
-      <li key={index}> {item} </li>
+      <li key={index}> {item.item} </li>
     </div>
   ));
 };
